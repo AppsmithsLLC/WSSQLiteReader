@@ -103,7 +103,7 @@
 -(instancetype)initWithDataType:(WSDataType)dataType
                andAttributeName:(NSString*)attributeName
                    andFieldType:(WSFieldType)fieldType
-                   andFieldName:(NSString *)fieldName
+                   andFieldName:(NSString*)fieldName
 {
     self = [super init];
     if (self)
@@ -133,23 +133,18 @@
 }
 
 #pragma mark - Methods for inheriting classes
-
 -(instancetype)initDataObjectWithFieldType:(WSFieldType)fieldType
                                   dataType:(WSDataType)dataType
                           andAttributeName:(NSString *)attributeName
                             andObjectValue:(id)objectValue
                               andFieldName:(NSString *)fieldName
 {
-    //Must be implemented by inheriting classes.
-    //
     NSAssert(NO,@"Must be implemented by inheriting classes.");
     return nil;
 }
 
 -(id)getObjectValue
 {
-    //Must be implemented by inheriting classes.
-    //
     NSAssert(NO,@"Must be implemented by inheriting classes.");
     return nil;
 }

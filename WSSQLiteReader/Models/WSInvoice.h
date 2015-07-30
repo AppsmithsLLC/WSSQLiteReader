@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import "WSObjectProtocol.h"
 
+#define kInvoiceTableName @"Invoice"
 #define kInvoiceInvoiceIdFieldName @"InvoiceId"
 #define kInvoiceCustomerIdFieldName @"CustomerId"
 #define kInvoiceInvoiceDateFieldName @"InvoiceDate"

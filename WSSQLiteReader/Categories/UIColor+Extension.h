@@ -11,7 +11,7 @@
 
 @interface UIColor (Extension)
 
-/*
+/**
  * This uses this color and returns it with the given alpha.
  * This changes the alpha rather than applying the alpha to the
  * given color.  For example if you had a color that was already 50% transparent

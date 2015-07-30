@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A0100B41B6320F000B653D6 /* WSBaseForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100B31B6320F000B653D6 /* WSBaseForm.m */; };
+		1A0100BD1B63224000B653D6 /* WSPropertyFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100BC1B63224000B653D6 /* WSPropertyFormItem.m */; };
+		1A0100C11B6322A000B653D6 /* WSFormSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100C01B6322A000B653D6 /* WSFormSection.m */; };
+		1A0100C71B63233200B653D6 /* WSTextViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100C61B63233200B653D6 /* WSTextViewItem.m */; };
+		1A0100CA1B63235200B653D6 /* WSTextFieldItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100C91B63235200B653D6 /* WSTextFieldItem.m */; };
+		1A0100CD1B63236600B653D6 /* WSSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100CC1B63236600B653D6 /* WSSwitchItem.m */; };
+		1A0100D01B63237700B653D6 /* WSDatePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100CF1B63237700B653D6 /* WSDatePickerItem.m */; };
+		1A0100D31B63238C00B653D6 /* WSDatePickerDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100D21B63238C00B653D6 /* WSDatePickerDisplayItem.m */; };
+		1A0100FD1B6472AB00B653D6 /* WSAppSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0100FC1B6472AB00B653D6 /* WSAppSettings.m */; };
+		1A0101011B64750800B653D6 /* UITableViewCell+WSCellStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101001B64750800B653D6 /* UITableViewCell+WSCellStyle.m */; };
+		1A0101111B6489E400B653D6 /* WSTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101101B6489E400B653D6 /* WSTheme.m */; };
+		1A0101141B6489F900B653D6 /* WSLightTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101131B6489F900B653D6 /* WSLightTheme.m */; };
+		1A0101171B648B5400B653D6 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101161B648B5400B653D6 /* UIColor+Extension.m */; };
+		1A0101201B6586CB00B653D6 /* WSFormSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A01011E1B6586CB00B653D6 /* WSFormSectionHeaderView.m */; };
+		1A0101211B6586CB00B653D6 /* WSFormSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A01011F1B6586CB00B653D6 /* WSFormSectionHeaderView.xib */; };
+		1A01014E1B65A34F00B653D6 /* WSDatePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101431B65A34F00B653D6 /* WSDatePickerTableViewCell.m */; };
+		1A01014F1B65A34F00B653D6 /* WSDatePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101441B65A34F00B653D6 /* WSDatePickerTableViewCell.xib */; };
+		1A0101501B65A34F00B653D6 /* WSTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101461B65A34F00B653D6 /* WSTextFieldTableViewCell.m */; };
+		1A0101511B65A34F00B653D6 /* WSTextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101471B65A34F00B653D6 /* WSTextFieldTableViewCell.xib */; };
+		1A0101521B65A34F00B653D6 /* WSTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101491B65A34F00B653D6 /* WSTextViewTableViewCell.m */; };
+		1A0101531B65A34F00B653D6 /* WSTextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A01014A1B65A34F00B653D6 /* WSTextViewTableViewCell.xib */; };
+		1A0101541B65A34F00B653D6 /* WSToggleSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A01014C1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.m */; };
+		1A0101551B65A34F00B653D6 /* WSToggleSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A01014D1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.xib */; };
+		1A0101581B65A35800B653D6 /* WSDatePickerAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101571B65A35800B653D6 /* WSDatePickerAlertController.m */; };
+		1A0101661B65BD8600B653D6 /* WSPropertyFormItemFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101651B65BD8600B653D6 /* WSPropertyFormItemFactory.m */; };
+		1A0101691B65BD9E00B653D6 /* WSDynamicForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101681B65BD9E00B653D6 /* WSDynamicForm.m */; };
+		1A0101771B66819C00B653D6 /* WSFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101761B66819C00B653D6 /* WSFileHelper.m */; };
+		1A01017A1B668D3200B653D6 /* Chinook_Sqlite.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101781B668D3200B653D6 /* Chinook_Sqlite.sqlite */; };
+		1A0101881B668D4F00B653D6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A01017E1B668D4F00B653D6 /* FMDatabase.m */; };
+		1A0101891B668D4F00B653D6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101801B668D4F00B653D6 /* FMDatabaseAdditions.m */; };
+		1A01018A1B668D4F00B653D6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101821B668D4F00B653D6 /* FMDatabasePool.m */; };
+		1A01018B1B668D4F00B653D6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101841B668D4F00B653D6 /* FMDatabaseQueue.m */; };
+		1A01018C1B668D4F00B653D6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101871B668D4F00B653D6 /* FMResultSet.m */; };
+		1A0101921B67255200B653D6 /* WSDataObjectStringField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101911B67255200B653D6 /* WSDataObjectStringField.m */; };
+		1A0101951B67256500B653D6 /* WSDataObjectNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101941B67256500B653D6 /* WSDataObjectNumberField.m */; };
+		1A0101981B67257B00B653D6 /* WSDataObjectDateField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101971B67257B00B653D6 /* WSDataObjectDateField.m */; };
+		1A01019B1B67258D00B653D6 /* WSDataObjectBoolField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A01019A1B67258D00B653D6 /* WSDataObjectBoolField.m */; };
+		1A01019D1B67BA2500B653D6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A01019C1B67BA2500B653D6 /* libsqlite3.dylib */; };
+		1A0101A01B68161F00B653D6 /* WSDropdownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A01019F1B68161F00B653D6 /* WSDropdownItem.m */; };
+		1A0101A41B68167C00B653D6 /* WSDropdownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101A21B68167C00B653D6 /* WSDropdownTableViewCell.m */; };
+		1A0101A51B68167C00B653D6 /* WSDropdownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101A31B68167C00B653D6 /* WSDropdownTableViewCell.xib */; };
+		1A0101A91B69CE7400B653D6 /* WSMainForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101A81B69CE7400B653D6 /* WSMainForm.m */; };
+		1A0101AC1B69D3E200B653D6 /* WSCustomerListForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101AB1B69D3E200B653D6 /* WSCustomerListForm.m */; };
+		1A0101AF1B69D3F200B653D6 /* WSCustomerDataForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101AE1B69D3F200B653D6 /* WSCustomerDataForm.m */; };
+		1A0101B31B69D43500B653D6 /* WSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101B21B69D43500B653D6 /* WSCustomer.m */; };
+		1A0101B61B69D45E00B653D6 /* WSInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101B51B69D45E00B653D6 /* WSInvoice.m */; };
+		1A0101BB1B6A89B700B653D6 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101B91B6A89B700B653D6 /* add.png */; };
+		1A0101BC1B6A89B700B653D6 /* DisclosureDownIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101BA1B6A89B700B653D6 /* DisclosureDownIcon.png */; };
+		1A0101BF1B6A8AD000B653D6 /* SearchFilterCollapse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101BD1B6A8AD000B653D6 /* SearchFilterCollapse.png */; };
+		1A0101C01B6A8AD000B653D6 /* SearchFilterExpand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101BE1B6A8AD000B653D6 /* SearchFilterExpand.png */; };
+		1A4006B51B630F84002A4284 /* WSSchemaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4006B41B630F84002A4284 /* WSSchemaObject.m */; };
+		1AE8041E1B6308EA002BC762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8041D1B6308EA002BC762 /* main.m */; };
+		1AE804211B6308EA002BC762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804201B6308EA002BC762 /* AppDelegate.m */; };
+		1AE804241B6308EA002BC762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804231B6308EA002BC762 /* ViewController.m */; };
+		1AE804291B6308EA002BC762 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE804281B6308EA002BC762 /* Images.xcassets */; };
+		1AE8042C1B6308EA002BC762 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8042A1B6308EA002BC762 /* LaunchScreen.xib */; };
+		1AE804381B6308EA002BC762 /* WSSQLiteReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804371B6308EA002BC762 /* WSSQLiteReaderTests.m */; };
+		1AE804521B630963002BC762 /* WSSchemaObjectColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804471B630963002BC762 /* WSSchemaObjectColumn.m */; };
+		1AE804531B630963002BC762 /* WSDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804491B630963002BC762 /* WSDataObject.m */; };
+		1AE804551B630963002BC762 /* WSSchemaObjectRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8044D1B630963002BC762 /* WSSchemaObjectRow.m */; };
+		1AE804561B630963002BC762 /* WSSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */; };
+		1AE804571B630963002BC762 /* WSSchemaObjectTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804511B630963002BC762 /* WSSchemaObjectTable.m */; };
+		1AE8048B1B6309D6002BC762 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804741B6309D6002BC762 /* JSONModel.m */; };
+		1AE8048C1B6309D6002BC762 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804761B6309D6002BC762 /* JSONModelArray.m */; };
+		1AE8048D1B6309D6002BC762 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804781B6309D6002BC762 /* JSONModelClassProperty.m */; };
+		1AE8048E1B6309D6002BC762 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8047A1B6309D6002BC762 /* JSONModelError.m */; };
+		1AE8048F1B6309D6002BC762 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8047D1B6309D6002BC762 /* NSArray+JSONModel.m */; };
+		1AE804901B6309D6002BC762 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804811B6309D6002BC762 /* JSONAPI.m */; };
+		1AE804911B6309D6002BC762 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804831B6309D6002BC762 /* JSONHTTPClient.m */; };
+		1AE804921B6309D6002BC762 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804851B6309D6002BC762 /* JSONModel+networking.m */; };
+		1AE804931B6309D6002BC762 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804881B6309D6002BC762 /* JSONKeyMapper.m */; };
+		1AE804941B6309D6002BC762 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8048A1B6309D6002BC762 /* JSONValueTransformer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AE804321B6308EA002BC762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE804101B6308EA002BC762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AE804171B6308EA002BC762;
+			remoteInfo = WSSQLiteReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A0100B21B6320F000B653D6 /* WSBaseForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSBaseForm.h; path = UI/WSBaseForm.h; sourceTree = SOURCE_ROOT; };
+		1A0100B31B6320F000B653D6 /* WSBaseForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSBaseForm.m; path = UI/WSBaseForm.m; sourceTree = SOURCE_ROOT; };
+		1A0100BB1B63224000B653D6 /* WSPropertyFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPropertyFormItem.h; path = UI/WSPropertyFormItem.h; sourceTree = SOURCE_ROOT; };
+		1A0100BC1B63224000B653D6 /* WSPropertyFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSPropertyFormItem.m; path = UI/WSPropertyFormItem.m; sourceTree = SOURCE_ROOT; };
+		1A0100BF1B6322A000B653D6 /* WSFormSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSFormSection.h; path = UI/WSFormSection.h; sourceTree = SOURCE_ROOT; };
+		1A0100C01B6322A000B653D6 /* WSFormSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSFormSection.m; path = UI/WSFormSection.m; sourceTree = SOURCE_ROOT; };
+		1A0100C51B63233200B653D6 /* WSTextViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTextViewItem.h; path = UI/WSTextViewItem.h; sourceTree = SOURCE_ROOT; };
+		1A0100C61B63233200B653D6 /* WSTextViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSTextViewItem.m; path = UI/WSTextViewItem.m; sourceTree = SOURCE_ROOT; };
+		1A0100C81B63235200B653D6 /* WSTextFieldItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTextFieldItem.h; path = UI/WSTextFieldItem.h; sourceTree = SOURCE_ROOT; };
+		1A0100C91B63235200B653D6 /* WSTextFieldItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSTextFieldItem.m; path = UI/WSTextFieldItem.m; sourceTree = SOURCE_ROOT; };
+		1A0100CB1B63236600B653D6 /* WSSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSwitchItem.h; path = UI/WSSwitchItem.h; sourceTree = SOURCE_ROOT; };
+		1A0100CC1B63236600B653D6 /* WSSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSwitchItem.m; path = UI/WSSwitchItem.m; sourceTree = SOURCE_ROOT; };
+		1A0100CE1B63237700B653D6 /* WSDatePickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDatePickerItem.h; path = UI/WSDatePickerItem.h; sourceTree = SOURCE_ROOT; };
+		1A0100CF1B63237700B653D6 /* WSDatePickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDatePickerItem.m; path = UI/WSDatePickerItem.m; sourceTree = SOURCE_ROOT; };
+		1A0100D11B63238C00B653D6 /* WSDatePickerDisplayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDatePickerDisplayItem.h; path = UI/WSDatePickerDisplayItem.h; sourceTree = SOURCE_ROOT; };
+		1A0100D21B63238C00B653D6 /* WSDatePickerDisplayItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDatePickerDisplayItem.m; path = UI/WSDatePickerDisplayItem.m; sourceTree = SOURCE_ROOT; };
+		1A0100FB1B6472AB00B653D6 /* WSAppSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAppSettings.h; sourceTree = SOURCE_ROOT; };
+		1A0100FC1B6472AB00B653D6 /* WSAppSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAppSettings.m; sourceTree = SOURCE_ROOT; };
+		1A0100FF1B64750800B653D6 /* UITableViewCell+WSCellStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+WSCellStyle.h"; path = "Categories/UITableViewCell+WSCellStyle.h"; sourceTree = SOURCE_ROOT; };
+		1A0101001B64750800B653D6 /* UITableViewCell+WSCellStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+WSCellStyle.m"; path = "Categories/UITableViewCell+WSCellStyle.m"; sourceTree = SOURCE_ROOT; };
+		1A01010F1B6489E400B653D6 /* WSTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTheme.h; sourceTree = SOURCE_ROOT; };
+		1A0101101B6489E400B653D6 /* WSTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTheme.m; sourceTree = SOURCE_ROOT; };
+		1A0101121B6489F900B653D6 /* WSLightTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLightTheme.h; sourceTree = SOURCE_ROOT; };
+		1A0101131B6489F900B653D6 /* WSLightTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLightTheme.m; sourceTree = SOURCE_ROOT; };
+		1A0101151B648B5400B653D6 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "Categories/UIColor+Extension.h"; sourceTree = SOURCE_ROOT; };
+		1A0101161B648B5400B653D6 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extension.m"; path = "Categories/UIColor+Extension.m"; sourceTree = SOURCE_ROOT; };
+		1A01011D1B6586CB00B653D6 /* WSFormSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSFormSectionHeaderView.h; path = UI/WSFormSectionHeaderView.h; sourceTree = SOURCE_ROOT; };
+		1A01011E1B6586CB00B653D6 /* WSFormSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSFormSectionHeaderView.m; path = UI/WSFormSectionHeaderView.m; sourceTree = SOURCE_ROOT; };
+		1A01011F1B6586CB00B653D6 /* WSFormSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WSFormSectionHeaderView.xib; path = UI/WSFormSectionHeaderView.xib; sourceTree = SOURCE_ROOT; };
+		1A0101421B65A34F00B653D6 /* WSDatePickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDatePickerTableViewCell.h; path = UI/TableViewCells/WSDatePickerTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		1A0101431B65A34F00B653D6 /* WSDatePickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDatePickerTableViewCell.m; path = UI/TableViewCells/WSDatePickerTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1A0101441B65A34F00B653D6 /* WSDatePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WSDatePickerTableViewCell.xib; path = UI/TableViewCells/WSDatePickerTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A0101451B65A34F00B653D6 /* WSTextFieldTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTextFieldTableViewCell.h; path = UI/TableViewCells/WSTextFieldTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		1A0101461B65A34F00B653D6 /* WSTextFieldTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSTextFieldTableViewCell.m; path = UI/TableViewCells/WSTextFieldTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1A0101471B65A34F00B653D6 /* WSTextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WSTextFieldTableViewCell.xib; path = UI/TableViewCells/WSTextFieldTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A0101481B65A34F00B653D6 /* WSTextViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSTextViewTableViewCell.h; path = UI/TableViewCells/WSTextViewTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		1A0101491B65A34F00B653D6 /* WSTextViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSTextViewTableViewCell.m; path = UI/TableViewCells/WSTextViewTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1A01014A1B65A34F00B653D6 /* WSTextViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WSTextViewTableViewCell.xib; path = UI/TableViewCells/WSTextViewTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A01014B1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSToggleSwitchTableViewCell.h; path = UI/TableViewCells/WSToggleSwitchTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		1A01014C1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSToggleSwitchTableViewCell.m; path = UI/TableViewCells/WSToggleSwitchTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1A01014D1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WSToggleSwitchTableViewCell.xib; path = UI/TableViewCells/WSToggleSwitchTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A0101561B65A35800B653D6 /* WSDatePickerAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDatePickerAlertController.h; path = UI/WSDatePickerAlertController.h; sourceTree = SOURCE_ROOT; };
+		1A0101571B65A35800B653D6 /* WSDatePickerAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDatePickerAlertController.m; path = UI/WSDatePickerAlertController.m; sourceTree = SOURCE_ROOT; };
+		1A0101641B65BD8600B653D6 /* WSPropertyFormItemFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSPropertyFormItemFactory.h; path = UI/WSPropertyFormItemFactory.h; sourceTree = SOURCE_ROOT; };
+		1A0101651B65BD8600B653D6 /* WSPropertyFormItemFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSPropertyFormItemFactory.m; path = UI/WSPropertyFormItemFactory.m; sourceTree = SOURCE_ROOT; };
+		1A0101671B65BD9E00B653D6 /* WSDynamicForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDynamicForm.h; path = UI/WSDynamicForm.h; sourceTree = SOURCE_ROOT; };
+		1A0101681B65BD9E00B653D6 /* WSDynamicForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDynamicForm.m; path = UI/WSDynamicForm.m; sourceTree = SOURCE_ROOT; };
+		1A0101751B66819C00B653D6 /* WSFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSFileHelper.h; path = Models/WSFileHelper.h; sourceTree = SOURCE_ROOT; };
+		1A0101761B66819C00B653D6 /* WSFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSFileHelper.m; path = Models/WSFileHelper.m; sourceTree = SOURCE_ROOT; };
+		1A0101781B668D3200B653D6 /* Chinook_Sqlite.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Chinook_Sqlite.sqlite; path = "Supporting Files/Chinook_Sqlite.sqlite"; sourceTree = SOURCE_ROOT; };
+		1A01017D1B668D4F00B653D6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = "Supporting Files/FMDB/FMDatabase.h"; sourceTree = SOURCE_ROOT; };
+		1A01017E1B668D4F00B653D6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "Supporting Files/FMDB/FMDatabase.m"; sourceTree = SOURCE_ROOT; };
+		1A01017F1B668D4F00B653D6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = "Supporting Files/FMDB/FMDatabaseAdditions.h"; sourceTree = SOURCE_ROOT; };
+		1A0101801B668D4F00B653D6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "Supporting Files/FMDB/FMDatabaseAdditions.m"; sourceTree = SOURCE_ROOT; };
+		1A0101811B668D4F00B653D6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = "Supporting Files/FMDB/FMDatabasePool.h"; sourceTree = SOURCE_ROOT; };
+		1A0101821B668D4F00B653D6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "Supporting Files/FMDB/FMDatabasePool.m"; sourceTree = SOURCE_ROOT; };
+		1A0101831B668D4F00B653D6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = "Supporting Files/FMDB/FMDatabaseQueue.h"; sourceTree = SOURCE_ROOT; };
+		1A0101841B668D4F00B653D6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "Supporting Files/FMDB/FMDatabaseQueue.m"; sourceTree = SOURCE_ROOT; };
+		1A0101851B668D4F00B653D6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = "Supporting Files/FMDB/FMDB.h"; sourceTree = SOURCE_ROOT; };
+		1A0101861B668D4F00B653D6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = "Supporting Files/FMDB/FMResultSet.h"; sourceTree = SOURCE_ROOT; };
+		1A0101871B668D4F00B653D6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "Supporting Files/FMDB/FMResultSet.m"; sourceTree = SOURCE_ROOT; };
+		1A0101901B67255200B653D6 /* WSDataObjectStringField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDataObjectStringField.h; path = Models/WSDataObjectStringField.h; sourceTree = SOURCE_ROOT; };
+		1A0101911B67255200B653D6 /* WSDataObjectStringField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDataObjectStringField.m; path = Models/WSDataObjectStringField.m; sourceTree = SOURCE_ROOT; };
+		1A0101931B67256500B653D6 /* WSDataObjectNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDataObjectNumberField.h; path = Models/WSDataObjectNumberField.h; sourceTree = SOURCE_ROOT; };
+		1A0101941B67256500B653D6 /* WSDataObjectNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDataObjectNumberField.m; path = Models/WSDataObjectNumberField.m; sourceTree = SOURCE_ROOT; };
+		1A0101961B67257B00B653D6 /* WSDataObjectDateField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDataObjectDateField.h; path = Models/WSDataObjectDateField.h; sourceTree = SOURCE_ROOT; };
+		1A0101971B67257B00B653D6 /* WSDataObjectDateField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDataObjectDateField.m; path = Models/WSDataObjectDateField.m; sourceTree = SOURCE_ROOT; };
+		1A0101991B67258D00B653D6 /* WSDataObjectBoolField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDataObjectBoolField.h; path = Models/WSDataObjectBoolField.h; sourceTree = SOURCE_ROOT; };
+		1A01019A1B67258D00B653D6 /* WSDataObjectBoolField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDataObjectBoolField.m; path = Models/WSDataObjectBoolField.m; sourceTree = SOURCE_ROOT; };
+		1A01019C1B67BA2500B653D6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1A01019E1B68161F00B653D6 /* WSDropdownItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDropdownItem.h; path = UI/WSDropdownItem.h; sourceTree = SOURCE_ROOT; };
+		1A01019F1B68161F00B653D6 /* WSDropdownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDropdownItem.m; path = UI/WSDropdownItem.m; sourceTree = SOURCE_ROOT; };
+		1A0101A11B68167C00B653D6 /* WSDropdownTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDropdownTableViewCell.h; path = UI/TableViewCells/WSDropdownTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		1A0101A21B68167C00B653D6 /* WSDropdownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDropdownTableViewCell.m; path = UI/TableViewCells/WSDropdownTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		1A0101A31B68167C00B653D6 /* WSDropdownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WSDropdownTableViewCell.xib; path = UI/TableViewCells/WSDropdownTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		1A0101A71B69CE7400B653D6 /* WSMainForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSMainForm.h; path = UI/WSMainForm.h; sourceTree = SOURCE_ROOT; };
+		1A0101A81B69CE7400B653D6 /* WSMainForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSMainForm.m; path = UI/WSMainForm.m; sourceTree = SOURCE_ROOT; };
+		1A0101AA1B69D3E200B653D6 /* WSCustomerListForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSCustomerListForm.h; path = UI/WSCustomerListForm.h; sourceTree = SOURCE_ROOT; };
+		1A0101AB1B69D3E200B653D6 /* WSCustomerListForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSCustomerListForm.m; path = UI/WSCustomerListForm.m; sourceTree = SOURCE_ROOT; };
+		1A0101AD1B69D3F200B653D6 /* WSCustomerDataForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSCustomerDataForm.h; path = UI/WSCustomerDataForm.h; sourceTree = SOURCE_ROOT; };
+		1A0101AE1B69D3F200B653D6 /* WSCustomerDataForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSCustomerDataForm.m; path = UI/WSCustomerDataForm.m; sourceTree = SOURCE_ROOT; };
+		1A0101B11B69D43500B653D6 /* WSCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSCustomer.h; path = Models/WSCustomer.h; sourceTree = SOURCE_ROOT; };
+		1A0101B21B69D43500B653D6 /* WSCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSCustomer.m; path = Models/WSCustomer.m; sourceTree = SOURCE_ROOT; };
+		1A0101B41B69D45E00B653D6 /* WSInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSInvoice.h; path = Models/WSInvoice.h; sourceTree = SOURCE_ROOT; };
+		1A0101B51B69D45E00B653D6 /* WSInvoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSInvoice.m; path = Models/WSInvoice.m; sourceTree = SOURCE_ROOT; };
+		1A0101B71B69D93400B653D6 /* WSObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSObjectProtocol.h; path = Models/WSObjectProtocol.h; sourceTree = SOURCE_ROOT; };
+		1A0101B91B6A89B700B653D6 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = Images/add.png; sourceTree = SOURCE_ROOT; };
+		1A0101BA1B6A89B700B653D6 /* DisclosureDownIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DisclosureDownIcon.png; path = Images/DisclosureDownIcon.png; sourceTree = SOURCE_ROOT; };
+		1A0101BD1B6A8AD000B653D6 /* SearchFilterCollapse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SearchFilterCollapse.png; path = Images/SearchFilterCollapse.png; sourceTree = SOURCE_ROOT; };
+		1A0101BE1B6A8AD000B653D6 /* SearchFilterExpand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SearchFilterExpand.png; path = Images/SearchFilterExpand.png; sourceTree = SOURCE_ROOT; };
+		1A4006B31B630F84002A4284 /* WSSchemaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObject.h; path = Models/WSSchemaObject.h; sourceTree = SOURCE_ROOT; };
+		1A4006B41B630F84002A4284 /* WSSchemaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObject.m; path = Models/WSSchemaObject.m; sourceTree = SOURCE_ROOT; };
+		1AE804181B6308EA002BC762 /* WSSQLiteReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSSQLiteReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE8041C1B6308EA002BC762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE8041D1B6308EA002BC762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AE8041F1B6308EA002BC762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AE804201B6308EA002BC762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AE804221B6308EA002BC762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AE804231B6308EA002BC762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AE804281B6308EA002BC762 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AE8042B1B6308EA002BC762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AE804311B6308EA002BC762 /* WSSQLiteReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSSQLiteReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE804361B6308EA002BC762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE804371B6308EA002BC762 /* WSSQLiteReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSSQLiteReaderTests.m; sourceTree = "<group>"; };
+		1AE804461B630963002BC762 /* WSSchemaObjectColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObjectColumn.h; path = Models/WSSchemaObjectColumn.h; sourceTree = SOURCE_ROOT; };
+		1AE804471B630963002BC762 /* WSSchemaObjectColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObjectColumn.m; path = Models/WSSchemaObjectColumn.m; sourceTree = SOURCE_ROOT; };
+		1AE804481B630963002BC762 /* WSDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSDataObject.h; path = Models/WSDataObject.h; sourceTree = SOURCE_ROOT; };
+		1AE804491B630963002BC762 /* WSDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSDataObject.m; path = Models/WSDataObject.m; sourceTree = SOURCE_ROOT; };
+		1AE8044C1B630963002BC762 /* WSSchemaObjectRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObjectRow.h; path = Models/WSSchemaObjectRow.h; sourceTree = SOURCE_ROOT; };
+		1AE8044D1B630963002BC762 /* WSSchemaObjectRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObjectRow.m; path = Models/WSSchemaObjectRow.m; sourceTree = SOURCE_ROOT; };
+		1AE8044E1B630963002BC762 /* WSSQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSQLiteHelper.h; path = Models/WSSQLiteHelper.h; sourceTree = SOURCE_ROOT; };
+		1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSQLiteHelper.m; path = Models/WSSQLiteHelper.m; sourceTree = SOURCE_ROOT; };
+		1AE804501B630963002BC762 /* WSSchemaObjectTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObjectTable.h; path = Models/WSSchemaObjectTable.h; sourceTree = SOURCE_ROOT; };
+		1AE804511B630963002BC762 /* WSSchemaObjectTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObjectTable.m; path = Models/WSSchemaObjectTable.m; sourceTree = SOURCE_ROOT; };
+		1AE804731B6309D6002BC762 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		1AE804741B6309D6002BC762 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		1AE804751B6309D6002BC762 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		1AE804761B6309D6002BC762 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		1AE804771B6309D6002BC762 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		1AE804781B6309D6002BC762 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		1AE804791B6309D6002BC762 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		1AE8047A1B6309D6002BC762 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		1AE8047C1B6309D6002BC762 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		1AE8047D1B6309D6002BC762 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		1AE8047E1B6309D6002BC762 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		1AE804801B6309D6002BC762 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		1AE804811B6309D6002BC762 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		1AE804821B6309D6002BC762 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		1AE804831B6309D6002BC762 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		1AE804841B6309D6002BC762 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		1AE804851B6309D6002BC762 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		1AE804871B6309D6002BC762 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		1AE804881B6309D6002BC762 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		1AE804891B6309D6002BC762 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		1AE8048A1B6309D6002BC762 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE804151B6308EA002BC762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A01019D1B67BA2500B653D6 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8042E1B6308EA002BC762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0100BE1B63224B00B653D6 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1A0100BB1B63224000B653D6 /* WSPropertyFormItem.h */,
+				1A0100BC1B63224000B653D6 /* WSPropertyFormItem.m */,
+				1A0100B21B6320F000B653D6 /* WSBaseForm.h */,
+				1A0100B31B6320F000B653D6 /* WSBaseForm.m */,
+			);
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		1A0100FE1B64740600B653D6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1A0100FF1B64750800B653D6 /* UITableViewCell+WSCellStyle.h */,
+				1A0101001B64750800B653D6 /* UITableViewCell+WSCellStyle.m */,
+				1A0101151B648B5400B653D6 /* UIColor+Extension.h */,
+				1A0101161B648B5400B653D6 /* UIColor+Extension.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1A0101391B659CF300B653D6 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				1A0101A11B68167C00B653D6 /* WSDropdownTableViewCell.h */,
+				1A0101A21B68167C00B653D6 /* WSDropdownTableViewCell.m */,
+				1A0101A31B68167C00B653D6 /* WSDropdownTableViewCell.xib */,
+				1A0101421B65A34F00B653D6 /* WSDatePickerTableViewCell.h */,
+				1A0101431B65A34F00B653D6 /* WSDatePickerTableViewCell.m */,
+				1A0101441B65A34F00B653D6 /* WSDatePickerTableViewCell.xib */,
+				1A0101451B65A34F00B653D6 /* WSTextFieldTableViewCell.h */,
+				1A0101461B65A34F00B653D6 /* WSTextFieldTableViewCell.m */,
+				1A0101471B65A34F00B653D6 /* WSTextFieldTableViewCell.xib */,
+				1A0101481B65A34F00B653D6 /* WSTextViewTableViewCell.h */,
+				1A0101491B65A34F00B653D6 /* WSTextViewTableViewCell.m */,
+				1A01014A1B65A34F00B653D6 /* WSTextViewTableViewCell.xib */,
+				1A01014B1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.h */,
+				1A01014C1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.m */,
+				1A01014D1B65A34F00B653D6 /* WSToggleSwitchTableViewCell.xib */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		1A0101591B65BB9800B653D6 /* FormComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1A0101561B65A35800B653D6 /* WSDatePickerAlertController.h */,
+				1A0101571B65A35800B653D6 /* WSDatePickerAlertController.m */,
+				1A01011D1B6586CB00B653D6 /* WSFormSectionHeaderView.h */,
+				1A01011E1B6586CB00B653D6 /* WSFormSectionHeaderView.m */,
+				1A01011F1B6586CB00B653D6 /* WSFormSectionHeaderView.xib */,
+				1A0100BF1B6322A000B653D6 /* WSFormSection.h */,
+				1A0100C01B6322A000B653D6 /* WSFormSection.m */,
+				1A0100C51B63233200B653D6 /* WSTextViewItem.h */,
+				1A0100C61B63233200B653D6 /* WSTextViewItem.m */,
+				1A0100C81B63235200B653D6 /* WSTextFieldItem.h */,
+				1A0100C91B63235200B653D6 /* WSTextFieldItem.m */,
+				1A0100CB1B63236600B653D6 /* WSSwitchItem.h */,
+				1A0100CC1B63236600B653D6 /* WSSwitchItem.m */,
+				1A0100CE1B63237700B653D6 /* WSDatePickerItem.h */,
+				1A0100CF1B63237700B653D6 /* WSDatePickerItem.m */,
+				1A0100D11B63238C00B653D6 /* WSDatePickerDisplayItem.h */,
+				1A0100D21B63238C00B653D6 /* WSDatePickerDisplayItem.m */,
+				1A01019E1B68161F00B653D6 /* WSDropdownItem.h */,
+				1A01019F1B68161F00B653D6 /* WSDropdownItem.m */,
+			);
+			name = FormComponents;
+			sourceTree = "<group>";
+		};
+		1A01015A1B65BC8700B653D6 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				1A0101641B65BD8600B653D6 /* WSPropertyFormItemFactory.h */,
+				1A0101651B65BD8600B653D6 /* WSPropertyFormItemFactory.m */,
+				1A0101671B65BD9E00B653D6 /* WSDynamicForm.h */,
+				1A0101681B65BD9E00B653D6 /* WSDynamicForm.m */,
+				1A0101A71B69CE7400B653D6 /* WSMainForm.h */,
+				1A0101A81B69CE7400B653D6 /* WSMainForm.m */,
+				1A0101AA1B69D3E200B653D6 /* WSCustomerListForm.h */,
+				1A0101AB1B69D3E200B653D6 /* WSCustomerListForm.m */,
+				1A0101AD1B69D3F200B653D6 /* WSCustomerDataForm.h */,
+				1A0101AE1B69D3F200B653D6 /* WSCustomerDataForm.m */,
+			);
+			name = Forms;
+			sourceTree = "<group>";
+		};
+		1A01017C1B668D4100B653D6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1A01017D1B668D4F00B653D6 /* FMDatabase.h */,
+				1A01017E1B668D4F00B653D6 /* FMDatabase.m */,
+				1A01017F1B668D4F00B653D6 /* FMDatabaseAdditions.h */,
+				1A0101801B668D4F00B653D6 /* FMDatabaseAdditions.m */,
+				1A0101811B668D4F00B653D6 /* FMDatabasePool.h */,
+				1A0101821B668D4F00B653D6 /* FMDatabasePool.m */,
+				1A0101831B668D4F00B653D6 /* FMDatabaseQueue.h */,
+				1A0101841B668D4F00B653D6 /* FMDatabaseQueue.m */,
+				1A0101851B668D4F00B653D6 /* FMDB.h */,
+				1A0101861B668D4F00B653D6 /* FMResultSet.h */,
+				1A0101871B668D4F00B653D6 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		1A0101B01B69D3F900B653D6 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1A0101B11B69D43500B653D6 /* WSCustomer.h */,
+				1A0101B21B69D43500B653D6 /* WSCustomer.m */,
+				1A0101B41B69D45E00B653D6 /* WSInvoice.h */,
+				1A0101B51B69D45E00B653D6 /* WSInvoice.m */,
+				1A0101B71B69D93400B653D6 /* WSObjectProtocol.h */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		1A0101B81B6A89AB00B653D6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1A0101BD1B6A8AD000B653D6 /* SearchFilterCollapse.png */,
+				1A0101BE1B6A8AD000B653D6 /* SearchFilterExpand.png */,
+				1A0101B91B6A89B700B653D6 /* add.png */,
+				1A0101BA1B6A89B700B653D6 /* DisclosureDownIcon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		1A4006B61B63116A002A4284 /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8044C1B630963002BC762 /* WSSchemaObjectRow.h */,
+				1AE8044D1B630963002BC762 /* WSSchemaObjectRow.m */,
+				1AE804461B630963002BC762 /* WSSchemaObjectColumn.h */,
+				1AE804471B630963002BC762 /* WSSchemaObjectColumn.m */,
+				1AE804501B630963002BC762 /* WSSchemaObjectTable.h */,
+				1AE804511B630963002BC762 /* WSSchemaObjectTable.m */,
+				1A4006B31B630F84002A4284 /* WSSchemaObject.h */,
+				1A4006B41B630F84002A4284 /* WSSchemaObject.m */,
+			);
+			name = Schema;
+			sourceTree = "<group>";
+		};
+		1A4006B71B631170002A4284 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804481B630963002BC762 /* WSDataObject.h */,
+				1AE804491B630963002BC762 /* WSDataObject.m */,
+				1A0101901B67255200B653D6 /* WSDataObjectStringField.h */,
+				1A0101911B67255200B653D6 /* WSDataObjectStringField.m */,
+				1A0101931B67256500B653D6 /* WSDataObjectNumberField.h */,
+				1A0101941B67256500B653D6 /* WSDataObjectNumberField.m */,
+				1A0101961B67257B00B653D6 /* WSDataObjectDateField.h */,
+				1A0101971B67257B00B653D6 /* WSDataObjectDateField.m */,
+				1A0101991B67258D00B653D6 /* WSDataObjectBoolField.h */,
+				1A01019A1B67258D00B653D6 /* WSDataObjectBoolField.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		1AE8040F1B6308EA002BC762 = {
+			isa = PBXGroup;
+			children = (
+				1A01019C1B67BA2500B653D6 /* libsqlite3.dylib */,
+				1AE8041A1B6308EA002BC762 /* WSSQLiteReader */,
+				1AE804341B6308EA002BC762 /* WSSQLiteReaderTests */,
+				1AE804191B6308EA002BC762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AE804191B6308EA002BC762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804181B6308EA002BC762 /* WSSQLiteReader.app */,
+				1AE804311B6308EA002BC762 /* WSSQLiteReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AE8041A1B6308EA002BC762 /* WSSQLiteReader */ = {
+			isa = PBXGroup;
+			children = (
+				1A0100FE1B64740600B653D6 /* Categories */,
+				1AE804421B6308FB002BC762 /* Models */,
+				1AE804411B6308F6002BC762 /* UI */,
+				1AE8041F1B6308EA002BC762 /* AppDelegate.h */,
+				1AE804201B6308EA002BC762 /* AppDelegate.m */,
+				1AE804221B6308EA002BC762 /* ViewController.h */,
+				1AE804231B6308EA002BC762 /* ViewController.m */,
+				1AE804281B6308EA002BC762 /* Images.xcassets */,
+				1AE8042A1B6308EA002BC762 /* LaunchScreen.xib */,
+				1AE8041B1B6308EA002BC762 /* Supporting Files */,
+				1A0101B81B6A89AB00B653D6 /* Images */,
+			);
+			path = WSSQLiteReader;
+			sourceTree = "<group>";
+		};
+		1AE8041B1B6308EA002BC762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A01017C1B668D4100B653D6 /* FMDB */,
+				1A0101781B668D3200B653D6 /* Chinook_Sqlite.sqlite */,
+				1AE804711B6309D6002BC762 /* JSONModel */,
+				1AE8041C1B6308EA002BC762 /* Info.plist */,
+				1AE8041D1B6308EA002BC762 /* main.m */,
+				1A0100FB1B6472AB00B653D6 /* WSAppSettings.h */,
+				1A0100FC1B6472AB00B653D6 /* WSAppSettings.m */,
+				1A01010F1B6489E400B653D6 /* WSTheme.h */,
+				1A0101101B6489E400B653D6 /* WSTheme.m */,
+				1A0101121B6489F900B653D6 /* WSLightTheme.h */,
+				1A0101131B6489F900B653D6 /* WSLightTheme.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AE804341B6308EA002BC762 /* WSSQLiteReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804371B6308EA002BC762 /* WSSQLiteReaderTests.m */,
+				1AE804351B6308EA002BC762 /* Supporting Files */,
+			);
+			path = WSSQLiteReaderTests;
+			sourceTree = "<group>";
+		};
+		1AE804351B6308EA002BC762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804361B6308EA002BC762 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AE804411B6308F6002BC762 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1A01015A1B65BC8700B653D6 /* Forms */,
+				1A0100BE1B63224B00B653D6 /* BaseClasses */,
+				1A0101591B65BB9800B653D6 /* FormComponents */,
+				1A0101391B659CF300B653D6 /* TableViewCells */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1AE804421B6308FB002BC762 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A0101B01B69D3F900B653D6 /* Objects */,
+				1A4006B71B631170002A4284 /* Data */,
+				1A4006B61B63116A002A4284 /* Schema */,
+				1A0101751B66819C00B653D6 /* WSFileHelper.h */,
+				1A0101761B66819C00B653D6 /* WSFileHelper.m */,
+				1AE8044E1B630963002BC762 /* WSSQLiteHelper.h */,
+				1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1AE804711B6309D6002BC762 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804721B6309D6002BC762 /* JSONModel */,
+				1AE8047B1B6309D6002BC762 /* JSONModelCategories */,
+				1AE8047E1B6309D6002BC762 /* JSONModelLib.h */,
+				1AE8047F1B6309D6002BC762 /* JSONModelNetworking */,
+				1AE804861B6309D6002BC762 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		1AE804721B6309D6002BC762 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804731B6309D6002BC762 /* JSONModel.h */,
+				1AE804741B6309D6002BC762 /* JSONModel.m */,
+				1AE804751B6309D6002BC762 /* JSONModelArray.h */,
+				1AE804761B6309D6002BC762 /* JSONModelArray.m */,
+				1AE804771B6309D6002BC762 /* JSONModelClassProperty.h */,
+				1AE804781B6309D6002BC762 /* JSONModelClassProperty.m */,
+				1AE804791B6309D6002BC762 /* JSONModelError.h */,
+				1AE8047A1B6309D6002BC762 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		1AE8047B1B6309D6002BC762 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				1AE8047C1B6309D6002BC762 /* NSArray+JSONModel.h */,
+				1AE8047D1B6309D6002BC762 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		1AE8047F1B6309D6002BC762 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804801B6309D6002BC762 /* JSONAPI.h */,
+				1AE804811B6309D6002BC762 /* JSONAPI.m */,
+				1AE804821B6309D6002BC762 /* JSONHTTPClient.h */,
+				1AE804831B6309D6002BC762 /* JSONHTTPClient.m */,
+				1AE804841B6309D6002BC762 /* JSONModel+networking.h */,
+				1AE804851B6309D6002BC762 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		1AE804861B6309D6002BC762 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				1AE804871B6309D6002BC762 /* JSONKeyMapper.h */,
+				1AE804881B6309D6002BC762 /* JSONKeyMapper.m */,
+				1AE804891B6309D6002BC762 /* JSONValueTransformer.h */,
+				1AE8048A1B6309D6002BC762 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AE804171B6308EA002BC762 /* WSSQLiteReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8043B1B6308EA002BC762 /* Build configuration list for PBXNativeTarget "WSSQLiteReader" */;
+			buildPhases = (
+				1AE804141B6308EA002BC762 /* Sources */,
+				1AE804151B6308EA002BC762 /* Frameworks */,
+				1AE804161B6308EA002BC762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSSQLiteReader;
+			productName = WSSQLiteReader;
+			productReference = 1AE804181B6308EA002BC762 /* WSSQLiteReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AE804301B6308EA002BC762 /* WSSQLiteReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8043E1B6308EA002BC762 /* Build configuration list for PBXNativeTarget "WSSQLiteReaderTests" */;
+			buildPhases = (
+				1AE8042D1B6308EA002BC762 /* Sources */,
+				1AE8042E1B6308EA002BC762 /* Frameworks */,
+				1AE8042F1B6308EA002BC762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE804331B6308EA002BC762 /* PBXTargetDependency */,
+			);
+			name = WSSQLiteReaderTests;
+			productName = WSSQLiteReaderTests;
+			productReference = 1AE804311B6308EA002BC762 /* WSSQLiteReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE804101B6308EA002BC762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Websmiths, LLC";
+				TargetAttributes = {
+					1AE804171B6308EA002BC762 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1AE804301B6308EA002BC762 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1AE804171B6308EA002BC762;
+					};
+				};
+			};
+			buildConfigurationList = 1AE804131B6308EA002BC762 /* Build configuration list for PBXProject "WSSQLiteReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AE8040F1B6308EA002BC762;
+			productRefGroup = 1AE804191B6308EA002BC762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AE804171B6308EA002BC762 /* WSSQLiteReader */,
+				1AE804301B6308EA002BC762 /* WSSQLiteReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE804161B6308EA002BC762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A01017A1B668D3200B653D6 /* Chinook_Sqlite.sqlite in Resources */,
+				1A01014F1B65A34F00B653D6 /* WSDatePickerTableViewCell.xib in Resources */,
+				1A0101A51B68167C00B653D6 /* WSDropdownTableViewCell.xib in Resources */,
+				1A0101BC1B6A89B700B653D6 /* DisclosureDownIcon.png in Resources */,
+				1A0101551B65A34F00B653D6 /* WSToggleSwitchTableViewCell.xib in Resources */,
+				1A0101511B65A34F00B653D6 /* WSTextFieldTableViewCell.xib in Resources */,
+				1A0101BF1B6A8AD000B653D6 /* SearchFilterCollapse.png in Resources */,
+				1A0101C01B6A8AD000B653D6 /* SearchFilterExpand.png in Resources */,
+				1A0101531B65A34F00B653D6 /* WSTextViewTableViewCell.xib in Resources */,
+				1A0101BB1B6A89B700B653D6 /* add.png in Resources */,
+				1A0101211B6586CB00B653D6 /* WSFormSectionHeaderView.xib in Resources */,
+				1AE8042C1B6308EA002BC762 /* LaunchScreen.xib in Resources */,
+				1AE804291B6308EA002BC762 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8042F1B6308EA002BC762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AE804141B6308EA002BC762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0101951B67256500B653D6 /* WSDataObjectNumberField.m in Sources */,
+				1A0101541B65A34F00B653D6 /* WSToggleSwitchTableViewCell.m in Sources */,
+				1AE804571B630963002BC762 /* WSSchemaObjectTable.m in Sources */,
+				1AE8048F1B6309D6002BC762 /* NSArray+JSONModel.m in Sources */,
+				1A0101AF1B69D3F200B653D6 /* WSCustomerDataForm.m in Sources */,
+				1A0101881B668D4F00B653D6 /* FMDatabase.m in Sources */,
+				1A0101771B66819C00B653D6 /* WSFileHelper.m in Sources */,
+				1A4006B51B630F84002A4284 /* WSSchemaObject.m in Sources */,
+				1AE8048D1B6309D6002BC762 /* JSONModelClassProperty.m in Sources */,
+				1A0101A41B68167C00B653D6 /* WSDropdownTableViewCell.m in Sources */,
+				1A0101141B6489F900B653D6 /* WSLightTheme.m in Sources */,
+				1A0101B61B69D45E00B653D6 /* WSInvoice.m in Sources */,
+				1A0100C71B63233200B653D6 /* WSTextViewItem.m in Sources */,
+				1A0101A91B69CE7400B653D6 /* WSMainForm.m in Sources */,
+				1A0101A01B68161F00B653D6 /* WSDropdownItem.m in Sources */,
+				1A0101AC1B69D3E200B653D6 /* WSCustomerListForm.m in Sources */,
+				1AE804551B630963002BC762 /* WSSchemaObjectRow.m in Sources */,
+				1A0100BD1B63224000B653D6 /* WSPropertyFormItem.m in Sources */,
+				1A0100D31B63238C00B653D6 /* WSDatePickerDisplayItem.m in Sources */,
+				1AE8048C1B6309D6002BC762 /* JSONModelArray.m in Sources */,
+				1A0101581B65A35800B653D6 /* WSDatePickerAlertController.m in Sources */,
+				1AE804921B6309D6002BC762 /* JSONModel+networking.m in Sources */,
+				1A01018A1B668D4F00B653D6 /* FMDatabasePool.m in Sources */,
+				1AE8048E1B6309D6002BC762 /* JSONModelError.m in Sources */,
+				1AE804241B6308EA002BC762 /* ViewController.m in Sources */,
+				1A0101501B65A34F00B653D6 /* WSTextFieldTableViewCell.m in Sources */,
+				1A0100D01B63237700B653D6 /* WSDatePickerItem.m in Sources */,
+				1A0101691B65BD9E00B653D6 /* WSDynamicForm.m in Sources */,
+				1AE804531B630963002BC762 /* WSDataObject.m in Sources */,
+				1A0100C11B6322A000B653D6 /* WSFormSection.m in Sources */,
+				1A0101171B648B5400B653D6 /* UIColor+Extension.m in Sources */,
+				1A01014E1B65A34F00B653D6 /* WSDatePickerTableViewCell.m in Sources */,
+				1AE804521B630963002BC762 /* WSSchemaObjectColumn.m in Sources */,
+				1AE804211B6308EA002BC762 /* AppDelegate.m in Sources */,
+				1A0100CA1B63235200B653D6 /* WSTextFieldItem.m in Sources */,
+				1A01018C1B668D4F00B653D6 /* FMResultSet.m in Sources */,
+				1A0101B31B69D43500B653D6 /* WSCustomer.m in Sources */,
+				1A0101921B67255200B653D6 /* WSDataObjectStringField.m in Sources */,
+				1AE804911B6309D6002BC762 /* JSONHTTPClient.m in Sources */,
+				1A0101521B65A34F00B653D6 /* WSTextViewTableViewCell.m in Sources */,
+				1A0101011B64750800B653D6 /* UITableViewCell+WSCellStyle.m in Sources */,
+				1A0100CD1B63236600B653D6 /* WSSwitchItem.m in Sources */,
+				1A0101891B668D4F00B653D6 /* FMDatabaseAdditions.m in Sources */,
+				1A0101111B6489E400B653D6 /* WSTheme.m in Sources */,
+				1A0101201B6586CB00B653D6 /* WSFormSectionHeaderView.m in Sources */,
+				1AE804941B6309D6002BC762 /* JSONValueTransformer.m in Sources */,
+				1AE8041E1B6308EA002BC762 /* main.m in Sources */,
+				1A0100B41B6320F000B653D6 /* WSBaseForm.m in Sources */,
+				1AE804561B630963002BC762 /* WSSQLiteHelper.m in Sources */,
+				1A0101981B67257B00B653D6 /* WSDataObjectDateField.m in Sources */,
+				1A01018B1B668D4F00B653D6 /* FMDatabaseQueue.m in Sources */,
+				1A0100FD1B6472AB00B653D6 /* WSAppSettings.m in Sources */,
+				1A01019B1B67258D00B653D6 /* WSDataObjectBoolField.m in Sources */,
+				1AE804931B6309D6002BC762 /* JSONKeyMapper.m in Sources */,
+				1A0101661B65BD8600B653D6 /* WSPropertyFormItemFactory.m in Sources */,
+				1AE804901B6309D6002BC762 /* JSONAPI.m in Sources */,
+				1AE8048B1B6309D6002BC762 /* JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AE8042D1B6308EA002BC762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE804381B6308EA002BC762 /* WSSQLiteReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE804331B6308EA002BC762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AE804171B6308EA002BC762 /* WSSQLiteReader */;
+			targetProxy = 1AE804321B6308EA002BC762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AE8042A1B6308EA002BC762 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE8042B1B6308EA002BC762 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AE804391B6308EA002BC762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AE8043A1B6308EA002BC762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AE8043C1B6308EA002BC762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = WSSQLiteReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AE8043D1B6308EA002BC762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = WSSQLiteReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AE8043F1B6308EA002BC762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WSSQLiteReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSSQLiteReader.app/WSSQLiteReader";
+			};
+			name = Debug;
+		};
+		1AE804401B6308EA002BC762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WSSQLiteReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSSQLiteReader.app/WSSQLiteReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE804131B6308EA002BC762 /* Build configuration list for PBXProject "WSSQLiteReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE804391B6308EA002BC762 /* Debug */,
+				1AE8043A1B6308EA002BC762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE8043B1B6308EA002BC762 /* Build configuration list for PBXNativeTarget "WSSQLiteReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8043C1B6308EA002BC762 /* Debug */,
+				1AE8043D1B6308EA002BC762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AE8043E1B6308EA002BC762 /* Build configuration list for PBXNativeTarget "WSSQLiteReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE8043F1B6308EA002BC762 /* Debug */,
+				1AE804401B6308EA002BC762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE804101B6308EA002BC762 /* Project object */;
+}

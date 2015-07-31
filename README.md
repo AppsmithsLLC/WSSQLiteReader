@@ -1,8 +1,4 @@
-# 
-
-<snippet>
-  <content><![CDATA[
-# ${1:WSSQLiteReader}
+# WSSQLiteReader
 Prototype dynamic SQLite database reader which currently demonstrates:
 
 * Dynamic form generation using XIBs and custom wrapper classess to abstract complexity away from the UITableViewController subclasses.
@@ -27,6 +23,3 @@ You may also load your own SQLite database file by adding it to the project and 
 
 ## License
 TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>

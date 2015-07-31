@@ -64,6 +64,7 @@
 		1AE804551B630963002BC762 /* WSSchemaObjectRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8044D1B630963002BC762 /* WSSchemaObjectRow.m */; };
 		1AE804561B630963002BC762 /* WSSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */; };
 		1AE804571B630963002BC762 /* WSSchemaObjectTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804511B630963002BC762 /* WSSchemaObjectTable.m */; };
+		5F79C2B51B6BB8250052D551 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5F79C2B41B6BB8250052D551 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -185,6 +186,7 @@
 		1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSQLiteHelper.m; path = Models/WSSQLiteHelper.m; sourceTree = SOURCE_ROOT; };
 		1AE804501B630963002BC762 /* WSSchemaObjectTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObjectTable.h; path = Models/WSSchemaObjectTable.h; sourceTree = SOURCE_ROOT; };
 		1AE804511B630963002BC762 /* WSSchemaObjectTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObjectTable.m; path = Models/WSSchemaObjectTable.m; sourceTree = SOURCE_ROOT; };
+		5F79C2B41B6BB8250052D551 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +394,7 @@
 		1AE8041B1B6308EA002BC762 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F79C2B41B6BB8250052D551 /* README.md */,
 				1A01017C1B668D4100B653D6 /* FMDB */,
 				1A0101781B668D3200B653D6 /* Chinook_Sqlite.sqlite */,
 				1AE8041C1B6308EA002BC762 /* Info.plist */,
@@ -565,6 +568,7 @@
 				1A0101141B6489F900B653D6 /* WSLightTheme.m in Sources */,
 				1A0101B61B69D45E00B653D6 /* WSInvoice.m in Sources */,
 				1A0100C71B63233200B653D6 /* WSTextViewItem.m in Sources */,
+				5F79C2B51B6BB8250052D551 /* README.md in Sources */,
 				1A0101A91B69CE7400B653D6 /* WSMainForm.m in Sources */,
 				1A0101A01B68161F00B653D6 /* WSDropdownItem.m in Sources */,
 				1A0101AC1B69D3E200B653D6 /* WSCustomerListForm.m in Sources */,

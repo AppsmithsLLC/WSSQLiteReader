@@ -19,8 +19,8 @@ You may also load your own SQLite database file by adding it to the project and 
 5. Submit a pull request
 
 ## History
-7-30-15 - initial commit to Github
-7-31-15 - Added additional code comments; cleaned up unused methods; edited constants.
+* 7-30-15 - initial commit to Github
+* 7-31-15 - Added additional code comments; cleaned up unused methods; edited constants.
 
 ## TODO
 * Add optional search bar to the WSBaseForm class

@@ -51,6 +51,14 @@
 //
 @interface WSFormItem : NSObject
 
+/**
+    I define the UITableViewCell as a public property in the base class.  I then override the getter in
+    each custom wrapper class that inherits from this.  In that getter I customize the data for each
+    xib file as needed.  Again, the complexity is abstracted away from the caller leaving behind a clean
+    and efficient implementation.
+ 
+    See demonstrations of this in WSCustomerListForm, WSCustomerDataForm, WSDynamicForm and WSMainForm.
+ */
 // A view for the cell
 //
 - (UITableViewCell *)tableViewCell;

@@ -38,7 +38,7 @@
     self.tableView.backgroundColor = [WSAppSettings sharedSettings].theme.backgroundColor;
     
     /* 
-     In case this is the root view controller, I don't want to show my back button.
+     In case this is the root view controller, I don't want to show the back button.
      */
     if ([self presentingViewController])
     {
@@ -89,6 +89,12 @@
     return [section.rows objectAtIndex:indexPath.row];
 }
 
+/**
+ By creating this base class and adhering to UITableViewDelegate/UITableViewDataSource, I can now 
+ implement all of the delegate/datasource methods in one central location.  I still have the option 
+ to override these locally in my derived classes if I need to, but otherwise this prevents the need 
+ for significant code duplication.
+ */
 #pragma mark - UITableViewDelegate/UITableViewDataSource
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
@@ -247,7 +253,6 @@
     NSIndexPath *indexPath = [self.tableView indexPathForCell:item.tableViewCell];
     [self.tableView selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionNone];
 }
-
 
 -(void)showViewController:(UIViewController *)controller forItem:(WSFormItem *)item
 {

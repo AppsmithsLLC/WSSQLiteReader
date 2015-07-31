@@ -18,6 +18,10 @@
 
 @implementation AppDelegate
 
+/**
+ I chose to NOT build a storyboard application. I don't have a preference, I just have more experience
+ with XIBs and custom code.
+ */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
@@ -26,20 +30,16 @@
     [self.window makeKeyAndVisible];
     [self createEditableCopyOfDatabaseIfNeeded];
     
-    WSMainForm *rootVC = [[WSMainForm alloc] init];
+    [[WSAppSettings sharedSettings] setTheme:[[WSLightTheme alloc] init]];
     
+    //Init root form and nav controller
+    //
+    WSMainForm *rootVC = [[WSMainForm alloc] init];
     UINavigationController* nav = [[UINavigationController alloc] initWithRootViewController:rootVC];
     nav.navigationBar.barStyle = [WSAppSettings sharedSettings].theme.barStyle;
-    nav.navigationItem.leftBarButtonItem = nil;
     
     self.window.rootViewController = nav;
-    
     self.window.backgroundColor = [UIColor whiteColor];
-    
-    //Set the initial theme on first run.
-    //
-    if (![[WSAppSettings sharedSettings] theme])
-        [[WSAppSettings sharedSettings] setTheme:[[WSLightTheme alloc] init]];
     
     return YES;
 }

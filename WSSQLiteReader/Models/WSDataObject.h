@@ -5,7 +5,6 @@
 //  Created by William Smith on 7/22/15.
 //
 
-#import "JSONModel.h"
 #import "WSSchemaObject.h"
 
 typedef enum {
@@ -27,8 +26,9 @@ typedef enum {
     WSFieldTypeBoolField
 } WSFieldType;
 
-//I normally wouldn't use this approach, but I just need a string for demonstration purposes.
-//
+/**
+ I normally wouldn't use this approach, but I just need a string for demonstration purposes.
+*/
 extern NSString * const WSFieldType_toString[];
 
 
@@ -36,6 +36,12 @@ extern NSString * const WSFieldType_toString[];
 @class WSDataObject;
 
 @interface WSDataObject : NSObject
+
+
+/**
+ I intended to comment every file in this detailed manner....then I realized that one file should 
+ hopfully be enough to demonstrate that I understand how to write comments. :)
+ */
 
 /**
  Initializes a WSDataObject object.
@@ -115,7 +121,6 @@ extern NSString * const WSFieldType_toString[];
  Returns the attribute name of the object.
  */
 -(NSString*)getAttributeName;
-
 
 
 @end

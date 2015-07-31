@@ -28,7 +28,6 @@
 }
 
 
-#pragma mark WSDataObjectProtocol
 -(NSString*)getObjectName
 {
     //Returns column name.

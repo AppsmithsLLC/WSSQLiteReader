@@ -10,7 +10,7 @@
 @class WSSchemaObjectColumn;
 @class WSSchemaObjectTable;
 
-@interface WSSchemaObjectRow : WSSchemaObject <WSSchemaObjectProtocol>
+@interface WSSchemaObjectRow : WSSchemaObject
 
 /*  Mainaining a reference to the column for sorting and labeling purposes.
     This labeling pattern probably isn't the best UX.

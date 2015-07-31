@@ -9,6 +9,10 @@
 
 @interface WSFileHelper : NSObject
 
+/**
+ Why do I use a singleton pattern here?
+ 
+ */
 +(WSFileHelper*)sharedHelper;
 
 -(NSURL*)applicationCacheDirectory;

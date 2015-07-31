@@ -39,7 +39,6 @@
     return self;
 }
 
-#pragma mark WSDataObjectProtocol
 -(NSString*)getObjectName
 {
     if (!self.rowObjectName || [self.rowObjectName length] == 0)

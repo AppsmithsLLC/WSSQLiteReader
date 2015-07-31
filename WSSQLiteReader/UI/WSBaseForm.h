@@ -18,7 +18,7 @@
 @end
 
 // A baseclass for data forms. Acts as a delegate/dataSource for a UITableView
-// and manages the creation of cell content
+// and manages the creation of cell content.
 //
 @interface WSBaseForm : UITableViewController<WSFormSectionDelegate>
 {
@@ -42,6 +42,8 @@
 //
 - (void)removeFormItemAtIndexPath:(NSIndexPath *)indexPath;
 
+//Returns the form item at the designated index path.
+//
 - (WSPropertyFormItem *)itemAtIndexPath:(NSIndexPath *)indexPath;
 
 // Doesn't actually dismiss the form but triggers the sequence of events that will

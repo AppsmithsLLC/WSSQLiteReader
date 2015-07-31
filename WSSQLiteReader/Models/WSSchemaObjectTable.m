@@ -27,7 +27,7 @@
 }
 
 
-#pragma mark WSDataObjectProtocol
+
 -(NSString*)getObjectName
 {
     //Returns table name.

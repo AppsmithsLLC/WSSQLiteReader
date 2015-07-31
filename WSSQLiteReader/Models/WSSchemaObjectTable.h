@@ -7,7 +7,7 @@
 
 #import "WSSchemaObject.h"
 
-@interface WSSchemaObjectTable : WSSchemaObject <WSSchemaObjectProtocol>
+@interface WSSchemaObjectTable : WSSchemaObject
 
 //A collection of WSColumn objects.
 //

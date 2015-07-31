@@ -53,14 +53,9 @@
 		1A0101AF1B69D3F200B653D6 /* WSCustomerDataForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101AE1B69D3F200B653D6 /* WSCustomerDataForm.m */; };
 		1A0101B31B69D43500B653D6 /* WSCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101B21B69D43500B653D6 /* WSCustomer.m */; };
 		1A0101B61B69D45E00B653D6 /* WSInvoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0101B51B69D45E00B653D6 /* WSInvoice.m */; };
-		1A0101BB1B6A89B700B653D6 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101B91B6A89B700B653D6 /* add.png */; };
-		1A0101BC1B6A89B700B653D6 /* DisclosureDownIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101BA1B6A89B700B653D6 /* DisclosureDownIcon.png */; };
-		1A0101BF1B6A8AD000B653D6 /* SearchFilterCollapse.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101BD1B6A8AD000B653D6 /* SearchFilterCollapse.png */; };
-		1A0101C01B6A8AD000B653D6 /* SearchFilterExpand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0101BE1B6A8AD000B653D6 /* SearchFilterExpand.png */; };
 		1A4006B51B630F84002A4284 /* WSSchemaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4006B41B630F84002A4284 /* WSSchemaObject.m */; };
 		1AE8041E1B6308EA002BC762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8041D1B6308EA002BC762 /* main.m */; };
 		1AE804211B6308EA002BC762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804201B6308EA002BC762 /* AppDelegate.m */; };
-		1AE804241B6308EA002BC762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804231B6308EA002BC762 /* ViewController.m */; };
 		1AE804291B6308EA002BC762 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE804281B6308EA002BC762 /* Images.xcassets */; };
 		1AE8042C1B6308EA002BC762 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE8042A1B6308EA002BC762 /* LaunchScreen.xib */; };
 		1AE804381B6308EA002BC762 /* WSSQLiteReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804371B6308EA002BC762 /* WSSQLiteReaderTests.m */; };
@@ -69,16 +64,6 @@
 		1AE804551B630963002BC762 /* WSSchemaObjectRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8044D1B630963002BC762 /* WSSchemaObjectRow.m */; };
 		1AE804561B630963002BC762 /* WSSQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */; };
 		1AE804571B630963002BC762 /* WSSchemaObjectTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804511B630963002BC762 /* WSSchemaObjectTable.m */; };
-		1AE8048B1B6309D6002BC762 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804741B6309D6002BC762 /* JSONModel.m */; };
-		1AE8048C1B6309D6002BC762 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804761B6309D6002BC762 /* JSONModelArray.m */; };
-		1AE8048D1B6309D6002BC762 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804781B6309D6002BC762 /* JSONModelClassProperty.m */; };
-		1AE8048E1B6309D6002BC762 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8047A1B6309D6002BC762 /* JSONModelError.m */; };
-		1AE8048F1B6309D6002BC762 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8047D1B6309D6002BC762 /* NSArray+JSONModel.m */; };
-		1AE804901B6309D6002BC762 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804811B6309D6002BC762 /* JSONAPI.m */; };
-		1AE804911B6309D6002BC762 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804831B6309D6002BC762 /* JSONHTTPClient.m */; };
-		1AE804921B6309D6002BC762 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804851B6309D6002BC762 /* JSONModel+networking.m */; };
-		1AE804931B6309D6002BC762 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE804881B6309D6002BC762 /* JSONKeyMapper.m */; };
-		1AE804941B6309D6002BC762 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8048A1B6309D6002BC762 /* JSONValueTransformer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -178,10 +163,6 @@
 		1A0101B41B69D45E00B653D6 /* WSInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSInvoice.h; path = Models/WSInvoice.h; sourceTree = SOURCE_ROOT; };
 		1A0101B51B69D45E00B653D6 /* WSInvoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSInvoice.m; path = Models/WSInvoice.m; sourceTree = SOURCE_ROOT; };
 		1A0101B71B69D93400B653D6 /* WSObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSObjectProtocol.h; path = Models/WSObjectProtocol.h; sourceTree = SOURCE_ROOT; };
-		1A0101B91B6A89B700B653D6 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = Images/add.png; sourceTree = SOURCE_ROOT; };
-		1A0101BA1B6A89B700B653D6 /* DisclosureDownIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DisclosureDownIcon.png; path = Images/DisclosureDownIcon.png; sourceTree = SOURCE_ROOT; };
-		1A0101BD1B6A8AD000B653D6 /* SearchFilterCollapse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SearchFilterCollapse.png; path = Images/SearchFilterCollapse.png; sourceTree = SOURCE_ROOT; };
-		1A0101BE1B6A8AD000B653D6 /* SearchFilterExpand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SearchFilterExpand.png; path = Images/SearchFilterExpand.png; sourceTree = SOURCE_ROOT; };
 		1A4006B31B630F84002A4284 /* WSSchemaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObject.h; path = Models/WSSchemaObject.h; sourceTree = SOURCE_ROOT; };
 		1A4006B41B630F84002A4284 /* WSSchemaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObject.m; path = Models/WSSchemaObject.m; sourceTree = SOURCE_ROOT; };
 		1AE804181B6308EA002BC762 /* WSSQLiteReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSSQLiteReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,8 +170,6 @@
 		1AE8041D1B6308EA002BC762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AE8041F1B6308EA002BC762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AE804201B6308EA002BC762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1AE804221B6308EA002BC762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1AE804231B6308EA002BC762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1AE804281B6308EA002BC762 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AE8042B1B6308EA002BC762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1AE804311B6308EA002BC762 /* WSSQLiteReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSSQLiteReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,27 +185,6 @@
 		1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSQLiteHelper.m; path = Models/WSSQLiteHelper.m; sourceTree = SOURCE_ROOT; };
 		1AE804501B630963002BC762 /* WSSchemaObjectTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSSchemaObjectTable.h; path = Models/WSSchemaObjectTable.h; sourceTree = SOURCE_ROOT; };
 		1AE804511B630963002BC762 /* WSSchemaObjectTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSSchemaObjectTable.m; path = Models/WSSchemaObjectTable.m; sourceTree = SOURCE_ROOT; };
-		1AE804731B6309D6002BC762 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
-		1AE804741B6309D6002BC762 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
-		1AE804751B6309D6002BC762 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
-		1AE804761B6309D6002BC762 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
-		1AE804771B6309D6002BC762 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
-		1AE804781B6309D6002BC762 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
-		1AE804791B6309D6002BC762 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
-		1AE8047A1B6309D6002BC762 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
-		1AE8047C1B6309D6002BC762 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
-		1AE8047D1B6309D6002BC762 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
-		1AE8047E1B6309D6002BC762 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
-		1AE804801B6309D6002BC762 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
-		1AE804811B6309D6002BC762 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
-		1AE804821B6309D6002BC762 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
-		1AE804831B6309D6002BC762 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
-		1AE804841B6309D6002BC762 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
-		1AE804851B6309D6002BC762 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
-		1AE804871B6309D6002BC762 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
-		1AE804881B6309D6002BC762 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
-		1AE804891B6309D6002BC762 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
-		1AE8048A1B6309D6002BC762 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,17 +323,6 @@
 			name = Objects;
 			sourceTree = "<group>";
 		};
-		1A0101B81B6A89AB00B653D6 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				1A0101BD1B6A8AD000B653D6 /* SearchFilterCollapse.png */,
-				1A0101BE1B6A8AD000B653D6 /* SearchFilterExpand.png */,
-				1A0101B91B6A89B700B653D6 /* add.png */,
-				1A0101BA1B6A89B700B653D6 /* DisclosureDownIcon.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
 		1A4006B61B63116A002A4284 /* Schema */ = {
 			isa = PBXGroup;
 			children = (
@@ -435,12 +382,9 @@
 				1AE804411B6308F6002BC762 /* UI */,
 				1AE8041F1B6308EA002BC762 /* AppDelegate.h */,
 				1AE804201B6308EA002BC762 /* AppDelegate.m */,
-				1AE804221B6308EA002BC762 /* ViewController.h */,
-				1AE804231B6308EA002BC762 /* ViewController.m */,
 				1AE804281B6308EA002BC762 /* Images.xcassets */,
 				1AE8042A1B6308EA002BC762 /* LaunchScreen.xib */,
 				1AE8041B1B6308EA002BC762 /* Supporting Files */,
-				1A0101B81B6A89AB00B653D6 /* Images */,
 			);
 			path = WSSQLiteReader;
 			sourceTree = "<group>";
@@ -450,7 +394,6 @@
 			children = (
 				1A01017C1B668D4100B653D6 /* FMDB */,
 				1A0101781B668D3200B653D6 /* Chinook_Sqlite.sqlite */,
-				1AE804711B6309D6002BC762 /* JSONModel */,
 				1AE8041C1B6308EA002BC762 /* Info.plist */,
 				1AE8041D1B6308EA002BC762 /* main.m */,
 				1A0100FB1B6472AB00B653D6 /* WSAppSettings.h */,
@@ -503,66 +446,6 @@
 				1AE8044F1B630963002BC762 /* WSSQLiteHelper.m */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		1AE804711B6309D6002BC762 /* JSONModel */ = {
-			isa = PBXGroup;
-			children = (
-				1AE804721B6309D6002BC762 /* JSONModel */,
-				1AE8047B1B6309D6002BC762 /* JSONModelCategories */,
-				1AE8047E1B6309D6002BC762 /* JSONModelLib.h */,
-				1AE8047F1B6309D6002BC762 /* JSONModelNetworking */,
-				1AE804861B6309D6002BC762 /* JSONModelTransformations */,
-			);
-			path = JSONModel;
-			sourceTree = SOURCE_ROOT;
-		};
-		1AE804721B6309D6002BC762 /* JSONModel */ = {
-			isa = PBXGroup;
-			children = (
-				1AE804731B6309D6002BC762 /* JSONModel.h */,
-				1AE804741B6309D6002BC762 /* JSONModel.m */,
-				1AE804751B6309D6002BC762 /* JSONModelArray.h */,
-				1AE804761B6309D6002BC762 /* JSONModelArray.m */,
-				1AE804771B6309D6002BC762 /* JSONModelClassProperty.h */,
-				1AE804781B6309D6002BC762 /* JSONModelClassProperty.m */,
-				1AE804791B6309D6002BC762 /* JSONModelError.h */,
-				1AE8047A1B6309D6002BC762 /* JSONModelError.m */,
-			);
-			path = JSONModel;
-			sourceTree = "<group>";
-		};
-		1AE8047B1B6309D6002BC762 /* JSONModelCategories */ = {
-			isa = PBXGroup;
-			children = (
-				1AE8047C1B6309D6002BC762 /* NSArray+JSONModel.h */,
-				1AE8047D1B6309D6002BC762 /* NSArray+JSONModel.m */,
-			);
-			path = JSONModelCategories;
-			sourceTree = "<group>";
-		};
-		1AE8047F1B6309D6002BC762 /* JSONModelNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				1AE804801B6309D6002BC762 /* JSONAPI.h */,
-				1AE804811B6309D6002BC762 /* JSONAPI.m */,
-				1AE804821B6309D6002BC762 /* JSONHTTPClient.h */,
-				1AE804831B6309D6002BC762 /* JSONHTTPClient.m */,
-				1AE804841B6309D6002BC762 /* JSONModel+networking.h */,
-				1AE804851B6309D6002BC762 /* JSONModel+networking.m */,
-			);
-			path = JSONModelNetworking;
-			sourceTree = "<group>";
-		};
-		1AE804861B6309D6002BC762 /* JSONModelTransformations */ = {
-			isa = PBXGroup;
-			children = (
-				1AE804871B6309D6002BC762 /* JSONKeyMapper.h */,
-				1AE804881B6309D6002BC762 /* JSONKeyMapper.m */,
-				1AE804891B6309D6002BC762 /* JSONValueTransformer.h */,
-				1AE8048A1B6309D6002BC762 /* JSONValueTransformer.m */,
-			);
-			path = JSONModelTransformations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -648,13 +531,9 @@
 				1A01017A1B668D3200B653D6 /* Chinook_Sqlite.sqlite in Resources */,
 				1A01014F1B65A34F00B653D6 /* WSDatePickerTableViewCell.xib in Resources */,
 				1A0101A51B68167C00B653D6 /* WSDropdownTableViewCell.xib in Resources */,
-				1A0101BC1B6A89B700B653D6 /* DisclosureDownIcon.png in Resources */,
 				1A0101551B65A34F00B653D6 /* WSToggleSwitchTableViewCell.xib in Resources */,
 				1A0101511B65A34F00B653D6 /* WSTextFieldTableViewCell.xib in Resources */,
-				1A0101BF1B6A8AD000B653D6 /* SearchFilterCollapse.png in Resources */,
-				1A0101C01B6A8AD000B653D6 /* SearchFilterExpand.png in Resources */,
 				1A0101531B65A34F00B653D6 /* WSTextViewTableViewCell.xib in Resources */,
-				1A0101BB1B6A89B700B653D6 /* add.png in Resources */,
 				1A0101211B6586CB00B653D6 /* WSFormSectionHeaderView.xib in Resources */,
 				1AE8042C1B6308EA002BC762 /* LaunchScreen.xib in Resources */,
 				1AE804291B6308EA002BC762 /* Images.xcassets in Resources */,
@@ -678,12 +557,10 @@
 				1A0101951B67256500B653D6 /* WSDataObjectNumberField.m in Sources */,
 				1A0101541B65A34F00B653D6 /* WSToggleSwitchTableViewCell.m in Sources */,
 				1AE804571B630963002BC762 /* WSSchemaObjectTable.m in Sources */,
-				1AE8048F1B6309D6002BC762 /* NSArray+JSONModel.m in Sources */,
 				1A0101AF1B69D3F200B653D6 /* WSCustomerDataForm.m in Sources */,
 				1A0101881B668D4F00B653D6 /* FMDatabase.m in Sources */,
 				1A0101771B66819C00B653D6 /* WSFileHelper.m in Sources */,
 				1A4006B51B630F84002A4284 /* WSSchemaObject.m in Sources */,
-				1AE8048D1B6309D6002BC762 /* JSONModelClassProperty.m in Sources */,
 				1A0101A41B68167C00B653D6 /* WSDropdownTableViewCell.m in Sources */,
 				1A0101141B6489F900B653D6 /* WSLightTheme.m in Sources */,
 				1A0101B61B69D45E00B653D6 /* WSInvoice.m in Sources */,
@@ -694,12 +571,8 @@
 				1AE804551B630963002BC762 /* WSSchemaObjectRow.m in Sources */,
 				1A0100BD1B63224000B653D6 /* WSPropertyFormItem.m in Sources */,
 				1A0100D31B63238C00B653D6 /* WSDatePickerDisplayItem.m in Sources */,
-				1AE8048C1B6309D6002BC762 /* JSONModelArray.m in Sources */,
 				1A0101581B65A35800B653D6 /* WSDatePickerAlertController.m in Sources */,
-				1AE804921B6309D6002BC762 /* JSONModel+networking.m in Sources */,
 				1A01018A1B668D4F00B653D6 /* FMDatabasePool.m in Sources */,
-				1AE8048E1B6309D6002BC762 /* JSONModelError.m in Sources */,
-				1AE804241B6308EA002BC762 /* ViewController.m in Sources */,
 				1A0101501B65A34F00B653D6 /* WSTextFieldTableViewCell.m in Sources */,
 				1A0100D01B63237700B653D6 /* WSDatePickerItem.m in Sources */,
 				1A0101691B65BD9E00B653D6 /* WSDynamicForm.m in Sources */,
@@ -713,14 +586,12 @@
 				1A01018C1B668D4F00B653D6 /* FMResultSet.m in Sources */,
 				1A0101B31B69D43500B653D6 /* WSCustomer.m in Sources */,
 				1A0101921B67255200B653D6 /* WSDataObjectStringField.m in Sources */,
-				1AE804911B6309D6002BC762 /* JSONHTTPClient.m in Sources */,
 				1A0101521B65A34F00B653D6 /* WSTextViewTableViewCell.m in Sources */,
 				1A0101011B64750800B653D6 /* UITableViewCell+WSCellStyle.m in Sources */,
 				1A0100CD1B63236600B653D6 /* WSSwitchItem.m in Sources */,
 				1A0101891B668D4F00B653D6 /* FMDatabaseAdditions.m in Sources */,
 				1A0101111B6489E400B653D6 /* WSTheme.m in Sources */,
 				1A0101201B6586CB00B653D6 /* WSFormSectionHeaderView.m in Sources */,
-				1AE804941B6309D6002BC762 /* JSONValueTransformer.m in Sources */,
 				1AE8041E1B6308EA002BC762 /* main.m in Sources */,
 				1A0100B41B6320F000B653D6 /* WSBaseForm.m in Sources */,
 				1AE804561B630963002BC762 /* WSSQLiteHelper.m in Sources */,
@@ -728,10 +599,7 @@
 				1A01018B1B668D4F00B653D6 /* FMDatabaseQueue.m in Sources */,
 				1A0100FD1B6472AB00B653D6 /* WSAppSettings.m in Sources */,
 				1A01019B1B67258D00B653D6 /* WSDataObjectBoolField.m in Sources */,
-				1AE804931B6309D6002BC762 /* JSONKeyMapper.m in Sources */,
 				1A0101661B65BD8600B653D6 /* WSPropertyFormItemFactory.m in Sources */,
-				1AE804901B6309D6002BC762 /* JSONAPI.m in Sources */,
-				1AE8048B1B6309D6002BC762 /* JSONModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

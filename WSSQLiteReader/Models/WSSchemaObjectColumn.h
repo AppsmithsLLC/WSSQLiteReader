@@ -10,7 +10,7 @@
 
 @class WSSchemaObjectTable;
 
-@interface WSSchemaObjectColumn : WSSchemaObject <WSSchemaObjectProtocol>
+@interface WSSchemaObjectColumn : WSSchemaObject
 
 @property (nonatomic, readonly, weak) WSSchemaObjectTable *parentTable;
 

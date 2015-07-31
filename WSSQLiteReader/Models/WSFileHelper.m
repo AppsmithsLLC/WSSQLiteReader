@@ -29,6 +29,9 @@
                                             inDomains:NSUserDomainMask] lastObject];
 }
 
+/**
+ Why use plist?
+ */
 - (NSString*)getSQLiteDBPath
 {
     NSString* cachePath = [self applicationCacheDirectory].path;

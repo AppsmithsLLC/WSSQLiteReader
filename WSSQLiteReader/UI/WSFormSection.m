@@ -79,7 +79,6 @@
 
 -(IBAction)addRow:(id)sender
 {
-    NSLog(@"calling add block");
     if (self.addBlock) {
         self.addBlock();
     }

@@ -1,7 +1,7 @@
 # WSSQLiteReader
 Prototype dynamic SQLite database reader which currently demonstrates:
 
-* Dynamic form generation using XIBs and custom wrapper classess to abstract complexity away from the UITableViewController subclasses.
+* Dynamic form generation using XIBs and custom wrapper classes to abstract complexity away from the UITableViewController subclasses.
 
 * Custom theme patterns
 

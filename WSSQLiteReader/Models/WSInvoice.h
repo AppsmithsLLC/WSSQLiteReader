@@ -8,16 +8,16 @@
 #import <Foundation/Foundation.h>
 #import "WSObjectProtocol.h"
 
-#define kInvoiceTableName @"Invoice"
-#define kInvoiceInvoiceIdFieldName @"InvoiceId"
-#define kInvoiceCustomerIdFieldName @"CustomerId"
-#define kInvoiceInvoiceDateFieldName @"InvoiceDate"
-#define kInvoiceBillingAddressFieldName @"BillingAddress"
-#define kInvoiceBillingCityFieldName @"BillingCity"
-#define kInvoiceBillingStateFieldName @"BillingState"
-#define kInvoiceBillingCountryFieldName @"BillingCountry"
-#define kInvoiceBillingPostalCodeFieldName @"BillingPostalCode"
-#define kInvoiceTotalFieldName @"Total"
+extern NSString* const kInvoiceTableName;
+extern NSString* const kInvoiceInvoiceIdFieldName;
+extern NSString* const kInvoiceCustomerIdFieldName;
+extern NSString* const kInvoiceInvoiceDateFieldName;
+extern NSString* const kInvoiceBillingAddressFieldName;
+extern NSString* const kInvoiceBillingCityFieldName;
+extern NSString* const kInvoiceBillingStateFieldName;
+extern NSString* const kInvoiceBillingCountryFieldName;
+extern NSString* const kInvoiceBillingPostalCodeFieldName;
+extern NSString* const kInvoiceTotalFieldName;
 
 @class FMResultSet;
 

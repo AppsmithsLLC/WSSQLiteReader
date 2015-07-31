@@ -8,6 +8,22 @@
 #import "WSCustomer.h"
 #import "FMDatabase.h"
 
+
+NSString* const kCustomerTableName = @"Customer";
+NSString* const kCustomerCustomerIdFieldName = @"CustomerId";
+NSString* const kCustomerFirstNameFieldName = @"FirstName";
+NSString* const kCustomerLastNameFieldName = @"LastName";
+NSString* const kCustomerCompanyFieldName = @"Company";
+NSString* const kCustomerAddressFieldName = @"Address";
+NSString* const kCustomerCityFieldName = @"City";
+NSString* const kCustomerStateFieldName = @"State";
+NSString* const kCustomerCountryFieldName = @"Country";
+NSString* const kCustomerPostalCodeFieldName = @"PostalCode";
+NSString* const kCustomerPhoneFieldName = @"Phone";
+NSString* const kCustomerFaxFieldName = @"Fax";
+NSString* const kCustomerEmailFieldName = @"Email";
+NSString* const kCustomerSupportRepIdFieldName = @"SupportRepId";
+
 @implementation WSCustomer
 
 -(instancetype)initWithResultSet:(FMResultSet*)resultSet

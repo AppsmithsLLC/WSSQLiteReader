@@ -8,6 +8,18 @@
 #import "WSInvoice.h"
 #import "FMDatabase.h"
 
+
+NSString* const kInvoiceTableName = @"Invoice";
+NSString* const kInvoiceInvoiceIdFieldName = @"InvoiceId";
+NSString* const kInvoiceCustomerIdFieldName = @"CustomerId";
+NSString* const kInvoiceInvoiceDateFieldName = @"InvoiceDate";
+NSString* const kInvoiceBillingAddressFieldName = @"BillingAddress";
+NSString* const kInvoiceBillingCityFieldName = @"BillingCity";
+NSString* const kInvoiceBillingStateFieldName = @"BillingState";
+NSString* const kInvoiceBillingCountryFieldName = @"BillingCountry";
+NSString* const kInvoiceBillingPostalCodeFieldName = @"BillingPostalCode";
+NSString* const kInvoiceTotalFieldName = @"Total";
+
 @implementation WSInvoice
 
 

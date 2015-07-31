@@ -2,10 +2,10 @@
 Prototype dynamic SQLite database reader which currently demonstrates:
 
 * Dynamic form generation using XIBs and custom wrapper classes to abstract complexity away from the UITableViewController subclasses.
-
+* Leverages KVO for databinding between UITableViewCell subclasses and data model objects
 * Custom theme patterns
-
 * Usage of FMDatabase to access SQLite database files
+
 
 ## Installation
 Download the project and open WSSQLiteReader.workspace in XCode 6 with iOS 8.4 SDK installed.
@@ -20,6 +20,7 @@ You may also load your own SQLite database file by adding it to the project and 
 
 ## History
 7-30-15 - initial commit to Github
+7-31-15 - Added additional code comments; cleaned up unused methods; edited constants.
 
 ## TODO
 * Add optional search bar to the WSBaseForm class

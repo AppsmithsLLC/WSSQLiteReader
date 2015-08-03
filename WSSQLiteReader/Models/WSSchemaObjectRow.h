@@ -14,16 +14,10 @@
 
 /*  Mainaining a reference to the column for sorting and labeling purposes.
     This labeling pattern probably isn't the best UX.
-    References are weak to prevent memory leaks due to the potential for large volumes of records.
-    Table reference is readonly for security purposes; if I ever decide to allow editing, the edited record
-        will be saved using the referenced table as a parameter in the SQL update statement so I don't want 
-        the caller to be able to change that.  I don't have this concern for the orderColumn object because
-        each data object in the fields dictionary maintains a reference to its own column name.
  */
-//TODO Change column in Row DataObjectField... to readonly.
 
-@property (nonatomic, weak) WSSchemaObjectColumn *orderColumn;
-@property (nonatomic, readonly, weak) WSSchemaObjectTable *parentTable;
+@property (nonatomic) WSSchemaObjectColumn *orderColumn;
+@property (nonatomic) WSSchemaObjectTable *parentTable;
 
 
 /* I chose to use a dictionary here in case I needed to map the values to specific columns
